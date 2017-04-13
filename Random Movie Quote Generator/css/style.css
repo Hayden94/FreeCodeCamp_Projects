@@ -1,0 +1,126 @@
+body {
+  overflow: hidden;
+}
+
+/*title start*/
+#header h1 {
+  text-align: center;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  text-shadow: -2px 2px 3px #b30000;
+  cursor: default;
+  font-size: 2.8vw;
+}
+
+#header p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1vw;
+  cursor: default;
+}
+/*title end*/
+
+/*buttons start*/
+#quotebutton #quote {
+  display: block;
+  float: right;
+  font-family: 'Indie Flower', cursive;
+  background-color: black;
+  color: white;
+  border: 3px solid #b30000;
+  border-radius: 100px;
+  font-size: 1.2vw;
+  box-shadow: -3px 3px 4px #8c8c8c;
+  text-shadow: -1px 1px 3px #b30000;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+#quotebutton #tweet {
+  font-family: 'Indie Flower', cursive;
+  background-color: black;
+  color: white;
+  border: 3px solid #b30000;
+  border-radius: 100px;
+  font-size: 1.2vw;
+  box-shadow: -3px 3px 4px #8c8c8c;
+  text-shadow: -1px 1px 3px #b30000;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -webkit-animation-delay: 200ms;
+  -o-animation-delay: 200ms;
+  -moz-animation-delay: 200ms;
+  animation-delay: 200ms;
+}
+
+#quotebutton #quote:hover {
+  background-color: #b30000;
+  text-shadow: -1px 1px 3px black;
+}
+
+#quotebutton #tweet:hover {
+  background-color: #b30000;
+  text-shadow: -1px 1px 3px black;
+}
+/*buttons end*/
+
+/*camerapics*/
+#cameraleft {
+  float: left;
+  width: 20%;
+}
+
+#cameraright {
+  float: right;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  width: 20%;
+}
+/*camerapics end*/
+
+/*quotes*/
+#quotebody {
+  width: 40%;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 3px solid #b30000;
+  border-radius: 10px;
+  box-shadow: -3px 3px 4px #8c8c8c;
+  font-family: 'Indie Flower', cursive;
+}
+
+#quotebody .quote {
+  color: #b30000;
+  text-shadow: 
+  font-weight: bold;
+  font-size: 1.5vw;
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+#quotebody .author {
+  color: white;
+  font-style: italic;
+  font-size: 1.2vw;
+  display: block;
+  text-align: right;
+  padding: 5px;
+}
+/*quotes end*/

@@ -1,0 +1,60 @@
+body {
+  font-family: "Times New Roman";
+  color: black;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/fc/Yosemite_Valley_from_Wawona_Tunnel_view,_vista_point..JPG");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  cursor: default;
+  margin-top: 100px;
+}
+
+.searcheng {
+  text-align: center;
+}
+
+#searchTerm {
+  padding: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#search {
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  transition: all 0.25s ease;
+  box-shadow: 0px 4px 1px grey;
+  border: 1px solid black;
+}
+
+#search:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 1px black;
+}
+
+.glyphicon {
+  color: black;
+  transition: all 0.02s ease;
+}
+
+.glyphicon:active {
+  transform: translateY(2px);
+}
+
+ul {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  position: relative;
+  top: 75px;
+  color: black;
+  cursor: default;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+  color: black;
+  background-color: white;
+  display: inline-block;
+  padding: 25px;
+  border-radius: 15px;
+  border: 3px solid black;
+  cursor: default;
+  box-shadow: -3px 3px 5px #4d4d4d;
+}
+
+h1:hover {
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
+}
+
+.btn {
+  font-size: 35px;
+  margin-bottom: 25px;
+  color: black;
+  border-radius: 15px;
+  border: 3px solid black;
+  transition: all 0.25s ease;
+  box-shadow: 0px 10px 1px grey;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  box-shadow: 0px 10px 1px #262626;
+}
+
+.btn:active {
+  transform: translateY(4px);
+  border: 3px solid black;
+  box-shadow: 0px 5px 1px #262626;
+}
